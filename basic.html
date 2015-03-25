@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>基本的な円グラフの描画</title>
+  <style>
+  body {
+    max-width:50em;
+    margin-right:auto;
+    margin-left:auto;
+    padding:1em;
+  }
+  path {
+    fill:#333;
+  }
+  text {
+    fill:#fff;
+  }
+  </style>
+</head>
+<body>
+
+  <h1>基本的な円グラフの描画</h1>
+  <p>もっともシンプルな形です。サイズを固定して描画しているため、ウィンドウをリサイズさせても何も変わらないことが分かります。</p>
+
+  <svg id="chart"></svg>
+
+  <p>円グラフ下のテキストです。</p>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/basic.js"></script>
+</body>
+</html>
